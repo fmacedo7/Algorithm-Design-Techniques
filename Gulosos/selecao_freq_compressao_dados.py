@@ -7,7 +7,7 @@ class CaractereFrequencia:
         return self.frequencia < outro.frequencia
 
 def seleciona_frequencias(texto, num_frequencias):
-    frequencias = {}
+    frequencias = {} # Armazena a frequencia de repetição de cada caractere
     # Conta quantas vezes cada caractere se repete
     for c in texto:
         if c in frequencias:
