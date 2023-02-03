@@ -30,6 +30,11 @@ def distancia_edicao(s1, s2):
                         tabela[i][j] = min(tabela[i-1][j-1] + 1, tabela[i-1]
                                 [j] + 1, tabela[i][j-1] + 1)
             return tabela[len(s1)][len(s2)]
-print(distancia_edicao("aaaa", "bcda"))  # 3
+print(distancia_edicao("gato", "pato"))  # 3
 #print(distancia_edicao("kitten", "sitting"))  # 3
 #print(distancia_edicao("gumbo", "gambol")) # 2
+
+# 1 2 3 4
+# 2 0 1 2
+# 3 1 0 1
+# 4 2 1 0
