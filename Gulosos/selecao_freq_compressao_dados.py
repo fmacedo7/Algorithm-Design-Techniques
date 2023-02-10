@@ -25,8 +25,8 @@ def seleciona_frequencias(texto, num_frequencias):
 
     return selecionadas
 
-texto = "aaabbcddddeeefffff"
-num_frequencias = 3 # A quantidade de carateres que eu quero que retorne
+texto = "aaabbcddddeeefffffa"
+num_frequencias = 4 # A quantidade de carateres que eu quero que retorne
 selecionadas = seleciona_frequencias(texto, num_frequencias)
 for s in selecionadas:
     print(f"{s.caractere}: {s.frequencia}")

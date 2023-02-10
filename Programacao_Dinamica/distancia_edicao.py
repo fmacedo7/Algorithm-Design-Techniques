@@ -33,8 +33,3 @@ def distancia_edicao(s1, s2):
 print(distancia_edicao("gato", "pato"))  # 3
 #print(distancia_edicao("kitten", "sitting"))  # 3
 #print(distancia_edicao("gumbo", "gambol")) # 2
-
-# 1 2 3 4
-# 2 0 1 2
-# 3 1 0 1
-# 4 2 1 0
